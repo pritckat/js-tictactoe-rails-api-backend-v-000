@@ -11,4 +11,9 @@ class GamesController < ApplicationController
 
   def update 
   end
+
+  private
+
+  def game_params
+  end
 end
